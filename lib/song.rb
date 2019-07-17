@@ -48,17 +48,35 @@ class Song
 
 
       def self.new_from_filename(filename)
+            #artist_name
             a = filename.split(" - ")
             artist_name = a[0]
+            #song_name
             a_one = a[1].split(".")
             name = a_one[0]
-
-
+            #initializes
             song = self.new
             song.name = name
             song.artist_name = artist_name
             song
             end
+
+            def self.create_from_filename
+              a = filename.split(" - ")
+              artist_name = a[0]
+              #song_name
+              a_one = a[1].split(".")
+              name = a_one[0]
+              #initializes
+              song = self.new
+              song.name = name
+              song.artist_name = artist_name
+              @@all << song
+                  song
+            end
+
+
+
 
 
 end
