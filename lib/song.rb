@@ -53,9 +53,10 @@ class Song
             a_one = a[1].split(".")
             name = a_one[0]
 
-            song.new
+  
             @name = name
             @artist_name = artist_name
+            song.new
             song
 
 
