@@ -56,9 +56,9 @@ class Song
 
             song = self.new
             song.name = name
+            binding.pry
             song.last_name = last_name
-        binding.pry
-            song
+
 
 
             end
