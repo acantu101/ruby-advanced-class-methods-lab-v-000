@@ -54,9 +54,9 @@ class Song
             name = a_one[0]
 
 
-            @name = name
-            @artist_name = artist_name
-            song.new
+            song = self.new
+            song.name = name
+            song.last_name = last_name
             song
 
 
