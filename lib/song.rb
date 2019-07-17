@@ -56,9 +56,9 @@ class Song
             song.new
             song.name = name
             song.artist_name = artist_name
-            
-            
-            
+            song
+
+
             end
 
 
