@@ -54,8 +54,8 @@ class Song
             name = a_one[0]
 
             song.new
-            song.name = name
-            song.artist_name = artist_name
+            song.name = :name
+            song.artist_name = :artist_name
             song
 
 
